@@ -3,20 +3,12 @@ read firstSide
 read secondSide
 read thirdSide
 
-#EQUILATERAL
-if [ $firstSide == $secondSide ] && [ $firstSide == $thirdSide ];
+if [ $firstSide == $secondSide ] && [ $firstSide == $thirdSide ] #EQUILATERAL
 then
 echo EQUILATERAL
-fi
-
-#ISOSCELES
-if [ $firstSide == $secondSide ] || [ $secondSide == $thirdSide ];
+elif [ $firstSide == $secondSide ] || [ $secondSide == $thirdSide ] #ISOSCELES
 then 
 echo ISOSCELES
-fi
-
-#SCALENE
-if [ $firstSide -gt $secondSide ] || [ $firstSide -gt $thirdSide ];
-then
+else
 echo SCALENE
 fi
