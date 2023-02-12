@@ -4,4 +4,5 @@ The contents of "Learn" directory has HackerRank's solution for [Linux Shell](ht
 
 ## Run Code
 I used GitBash to run the Linux Shell script
-![GitBash to run the Linux Shell script](https://github.com/balaji303/Bash/blob/main/docs/runBashUsingGitBash.jpg)
+
+<img src="https://raw.githubusercontent.com/balaji303/Bash/main/docs/runBashUsingGitBash.jpg" alt="GitBash to run the Linux Shell script" class="inline"/>
